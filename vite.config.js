@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/FIT5032_week5efolio/',
   plugins: [
     vue(),
     vueDevTools(),
